@@ -1,22 +1,21 @@
-.container{
-	width: 965px;
+body{
+	background-color: grey;
 }
-.main-container{
-	width: 700px;
-	padding: 25px 25px 25px 25px;
-	border: solid black;
-	float: left;
-
+h1{
+	font-size: 70px;
 }
-.side-container{
-	width: 260px;
-	border: solid black;
-	padding: 10px 10px 10px 10px;
-	float: right;
-
+.container-fluid{
+	max-width: 960px;
+}
+.jumbotron{
+	text-align: center;
+	margin: 20px 20px 20px 20px;
+}
+#add{
+	padding: 20px 20px 20px 20px;
 }
 button{
-	margin-right: 10px;
+	margin: 10px 10px;
 	font-size: 22px;
-	color: blue;
+	color: purple;
 }
